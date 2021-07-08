@@ -45,9 +45,6 @@ class Hands():
             print("invalid")
 
 
-#hand1 = Hands(1,1)
-#hand1.add_to_left(3)
-#hand1.display_left()
 
 class Players(Hands):
 
@@ -299,9 +296,6 @@ class Players(Hands):
 
 
 class Game(Players):
-    
-    #Human = [p1.left_fingers, p1.right_fingers]
-    #Comp = [p2.left_fingers, p2.right_fingers]
 
 
     def __init__(self):
@@ -529,15 +523,7 @@ class Game(Players):
 
         return valid_moves_list[min_index]
 
-#To do's
-#Merge Play and Play4 - Done
-#Delete Play()              rip The OG play - Done
-#Change the names of other plays - Done
-#Update the last turn - Done
-#Display board's formatiing better - Done
-#General formatting
-#sub-
-#make comp choose random between the first 4
+    
 
 
 game_on = True
